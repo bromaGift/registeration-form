@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title> Registration form</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+</head>
+<body>
+
+<div class="container">
+    
+    <div class="header">
+        <h2>Please fill the form below</h2>
+    <hr>
+    </div>
+
+    <div id="error"></div>
+    <form class="myform" id="myform">
+        
+    <div class="control">
+        <label for="name"><b>Name:</b></label>
+        <input type="text" placeholder="surname first" id="name">
+    </div>
+
+       <div class="control">
+            <label for="email"><b>Email:</b></label>
+            <input type="email" placeholder="enter email" id="email">
+       </div>
+
+        <div class="control">
+            <label for="country"><b>Choose your country:</b></label>
+        <select name="country" id="country">
+            <option value="Algeria">Algeria</option>
+            <option value="Uganda">Uganda</option>
+            <option value="Nigeria">Nigeria</option>
+            <option value="kenya">Kenya</option>
+            <option value="Ghana">Ghana</option>
+        </select>
+        </div>
+        
+        
+        <div class="control">
+            <label for="password"><b> choose a Password:</b></label>
+            <input type="password" placeholder="enter password" id="password">
+        </div>
+
+        <div class="control">
+            <label for="rptPassword"><b>repeat Password:</b></label>
+            <input type="password" placeholder="repeat password" id="rptPassword">
+        </div>
+
+        <button>Submit</button>
+    </form>
+</div>
+
+    <script src="main.js"></script>
+</body>
+</html>
